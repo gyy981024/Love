@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>答题页</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/compatible.js"></script>
+    <style>
+        body{
+            background: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+<!-- 头部 -->
+    <div class="lzxw-p-achieven-top">
+        <p class="title">日常练习</p>
+        <div class="return">
+            <img src="images/lt.png" alt="">
+        </div>
+    </div>
+<!-- 答题 -->
+    <!-- 单选 -->
+    <div class="lzxw-p-answer">
+        <div class="lzxw-p-a-count">
+            <div class="lzxw-p-a-c-title">第1/5题</div>
+            <div class="subject">俗称“四不象”的动物是</div>
+            <ul class="option clearfix">
+                <form>
+                    <li class="clearfix">
+                        <input type="radio" name="sex" value="male" id="option1">
+                        <label for="option1">A、麋鹿</label>
+                    </li>
+                    <li class="clearfix">
+                        <input type="radio" name="sex" value="male" id="option2">
+                        <label for="option2">B、羚羊</label>
+                    </li>
+                    <li class="clearfix">
+                        <input type="radio" name="sex" value="male" id="option3">
+                        <label for="option3">C、驼子</label>
+                    </li>
+                    <li class="clearfix">
+                        <input type="radio" name="sex" value="male" id="option4">
+                        <label for="option4">以上都不是</label>
+                    </li>
+                </form>
+            </ul>
+            <form>
+                <button class="next">下一题</button>
+            </form>
+        </div>
+    </div>
+    <!-- 复选 -->
+    <div class="lzxw-p-answer">
+        <div class="lzxw-p-a-count">
+            <div class="lzxw-p-a-c-title">第1/5题</div>
+            <div class="subject">俗称“四不象”的动物是</div>
+            <ul class="option clearfix">
+                <form>
+                    <li>
+                        <input type="checkbox" name="sex" value="male" id="option1">
+                        <label for="option1">A、麋鹿</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="sex" value="male" id="option2">
+                        <label for="option2">B、羚羊</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="sex" value="male" id="option3">
+                        <label for="option3">C、驼子</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="sex" value="male" id="option4">
+                        <label for="option4">以上都不是</label>
+                    </li>
+                </form>
+            </ul>
+            <form>
+                <button class="next">下一题</button>
+            </form>
+        </div>
+    </div>
+<!-- 底部 -->
+<div class="lzxw-p-achieven-bottom">
+    <li>
+        <a href="#">
+            <img src="images/dati.png" alt="">
+            <p class="active">答题</p>
+        </a>
+    </li>
+    <li>
+        <img src="images/mine.png" alt="">
+        <p>我的</p>
+    </li>
+</div>
+
+<script>
+    // $('.lzxw-p-a-count .option li').click(function() {
+    //     $('.lzxw-p-a-count .option li').removeClass();
+    //     $(this).addClass("active");
+    //     var index = $('.lzxw-p-a-count .option li').index(this);
+    //     $('.newscenter .n-right .n-r-count').hide();
+    //     $('.newscenter .n-right .n-r-count').eq(index).show();
+    // })
+</script>
+</body>
+</html>
